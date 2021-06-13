@@ -1,0 +1,208 @@
+                    body {
+                        font-size: 100%;
+                        background: linear-gradient(to right, #ffffff 0%, #ffffff 66%, #e5ede8 66%, #e5ede8 100%);
+                        font-family: 'Libre Baskerville', sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 100%;
+                        color: #325050
+                    }
+                    
+                    header {
+                        background-attachment: fixed, fixed, fixed, scroll;
+                        background-image: url(contours@2x.png), url(noise.png), url(gridlines.png), url(huntington.jpg);
+                        background-position: 0 0, 0 0, -5px -25px, 0 50%;
+                        background-repeat: repeat, repeat, repeat, no-repeat;
+                        background-size: auto, auto, auto, cover;
+                        background-attachment: fixed, fixed, fixed, scroll;
+                        width: 100%;
+                        height: 310px;
+                        padding: 0 10%;
+                        border-top: solid 12px rgba(19, 67, 71, 0.8);
+                        box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.3);
+                        vertical-align: middle;
+                        text-align: left;
+                        width: 100%;
+                        height: 310px;
+                        padding: 0 10%;
+                        border-top: solid 12px rgba(19, 67, 71, 0.8);
+                        box-shadow: inset 0 0 100px rgba(255, 255, 255, 0);
+                    }
+                    
+                    h1::before {
+                        display: inline-block;
+                        position: relative;
+                        top: 65px;
+                        content: "";
+                        width: 125px;
+                        height: 125px;
+                        margin: -65px 40px 0 0;
+                        background: url(enso.svg);
+                        background-size: 100%;
+                        opacity: 0.6;
+                    }
+                    
+                    h1 {
+                        color: white;
+                        font-size: 40px;
+                        font-style: italic;
+                        text-transform: uppercase;
+                    }
+                    
+                    h2::before {
+                        content: " ";
+                        padding: 80px;
+                    }
+                    
+                    h2 {
+                        font-size: 25px;
+                        color: rgba(224, 218, 218, 0.849);
+                    }
+                    
+                    .summary {
+                        padding-top: 3.25em;
+                        float: left;
+                        clear: left;
+                        width: 66%;
+                        padding: 1em 5% 1em 10%;
+                    }
+                    
+                    .intro a::before {
+                        display: inline-block;
+                        position: absolute;
+                        top: 6px;
+                        left: 8px;
+                        padding: 2px;
+                        color: #a9b995;
+                        background: #d9e1cd;
+                        -webkit-border-radius: 2px;
+                        line-height: 1;
+                    }
+                    
+                    p {
+                        margin: 0.75em 0;
+                        line-height: 2;
+                        font-size: 1em;
+                    }
+                    
+                    .intro p :last-child,
+                    .supporting p :last-child {
+                        margin-bottom: 0;
+                    }
+                    
+                    .summary,
+                    .preamble,
+                    .supporting div,
+                    .requirements,
+                    .requirements p {
+                        float: left;
+                        clear: left;
+                        width: 66%;
+                        padding: 1em 5% 1em 10%;
+                    }
+                    
+                    h3 {
+                        margin: 2em 0 0 0;
+                        color: #2e484c;
+                        font-family: 'Julius Sans One', sans-serif;
+                        font-size: 1.8em;
+                        font-weight: normal;
+                        text-transform: uppercase;
+                    }
+                    
+                    .design-selection,
+                    .zen-resources {
+                        position: absolute;
+                        top: 360px;
+                        right: 0;
+                        width: 33.3%;
+                        padding: 0 0 20px 0;
+                        margin: 0;
+                        overflow: visible;
+                        background: transparent;
+                    }
+                    
+                    .design-selection li:nth-child(2n+1) {
+                        clear: left;
+                    }
+                    
+                    .sidebar ul {
+                        padding: 0;
+                        list-style: none;
+                        overflow: hidden;
+                    }
+                    
+                    .sidebar li {
+                        padding-left: 0;
+                        padding-right: 0;
+                        margin: 0 29.4% 0 14.7%;
+                    }
+                    
+                    .design-selection li,
+                    .zen-resources li {
+                        color: #c0cac3;
+                        font-style: italic;
+                        padding: 1.5em 10%;
+                    }
+                    
+                    a {
+                        color: #325050;
+                    }
+                    
+                    .design-archives {
+                        position: absolute;
+                        z-index: 2;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 310px;
+                    }
+                    
+                    .design-archives nav {
+                        display: block;
+                        position: absolute;
+                        right: 1%;
+                        top: 120px;
+                        width: 32%;
+                    }
+                    
+                    .design-selection .design-name,
+                    .zen-resources a,
+                    li.viewall a {
+                        display: block;
+                        margin-bottom: 0.25em;
+                        font-family: 'Julius Sans One', sans-serif;
+                        font-size: 1.2em;
+                        font-style: normal;
+                        text-transform: uppercase;
+                    }
+                    
+                    .design-archives .viewall a,
+                    .design-archives a::before {
+                        background: rgba(255, 255, 255, 0.1);
+                        text-decoration: none;
+                    }
+                    
+                    .design-archives .viewall a {
+                        z-index: 2;
+                        width: 100%;
+                        min-height: 70px;
+                        padding: 12px 0 0 0;
+                        text-align: center;
+                    }
+                    
+                    .design-archives a,
+                    .design-archives a:visited {
+                        color: rgba(255, 255, 255, 0.65);
+                    }
+                    
+                    .design-archives .previous a,
+                    .design-archives .next a {
+                        display: block;
+                        overflow: hidden;
+                        width: 70px;
+                        height: 70px;
+                        text-indent: 100%;
+                        text-decoration: none;
+                        white-space: nowrap;
+                    }

@@ -1,0 +1,326 @@
+body {
+    font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+    color: #121212;
+    margin: -0;
+}
+
+
+/*------------------------header------------------------------*/
+
+.nav-header {
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.head-first {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.others,
+.sign-in {
+    color: #333333;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sign-in {
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 174px;
+}
+
+.others {
+    border-right: 1px solid #ccc;
+}
+
+.second-head {
+    background-color: #ffd230;
+    height: 94PX;
+}
+
+.sport-h {
+    font-size: 38px;
+    color: #121212;
+    margin-left: 435px;
+    font-weight: bold;
+}
+
+.other-2 {
+    font-size: 15px;
+    color: #121212;
+    border-right: 1px solid #121212;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-2 {
+    margin-left: 425px;
+}
+
+.bk:hover {
+    border-bottom: underline solid 3px #1212;
+}
+
+
+/*----------------------*/
+
+.son {
+    width: 100%;
+    height: 280px;
+}
+
+.fernandes {
+    width: 100%;
+    height: 150px;
+}
+
+#scoreboard {
+    border-left: 1px solid rgba(189, 187, 187, 0.678);
+    position: relative;
+}
+
+select {
+    width: 100px;
+    border: none;
+    font-weight: bold;
+}
+
+option {
+    background-color: rgb(218, 217, 217);
+    border-bottom: 1px solid rgb(95, 95, 95);
+    height: 40px;
+}
+
+.preimer {
+    border: none;
+    border-bottom: 4px solid black;
+    background-color: white;
+}
+
+.sunday {
+    font-size: 12px;
+    background-color: #f7f7f5;
+    padding: 10px;
+    margin-top: 15px
+}
+
+.scores li {
+    margin-bottom: 10px;
+    border-bottom: 1px rgb(95, 95, 95);
+}
+
+li {
+    text-decoration: none;
+}
+
+.scores li a {
+    color: black;
+    border-bottom: 1px rgba(189, 187, 187, 0.678) solid;
+}
+
+.scores li a span {
+    background-color: #DBDBDB;
+    color: #5A5A5A;
+}
+
+.view {
+    color: #121212;
+    word-spacing: 1px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.preimv {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-bottom: 1px rgba(189, 187, 187, 0.678) solid;
+    padding: 20px;
+}
+
+.teas {
+    width: 100%;
+    height: 300px;
+}
+
+.secons-art inframe {
+    width: 110%;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.second-art img {
+    width: 110%;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.second-art {
+    display: flex;
+    flex-direction: row;
+    margin-right: 200px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.title-art {
+    color: #006D36;
+    font-size: 14px;
+    align-items: left;
+    border-left: 1px rgba(189, 187, 187, 0.678) solid;
+    border-right: 1px rgba(189, 187, 187, 0.678) solid
+}
+
+.rh {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.djokovic {
+    color: rgb(78, 77, 77);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div>.title-art {
+    padding: 5px;
+    vertical-align: baseline;
+}
+
+.podcats {
+    width: 130px;
+    height: 107px;
+}
+
+.africa.amos {
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+}
+
+.amos,
+.podcats {
+    margin-bottom: 40px;
+}
+
+.bigm {
+    width: 100%;
+}
+
+.smallm {
+    width: 100%;
+    height: 80px;
+}
+
+.sms {
+    margin-bottom: 30px;
+}
+
+.linsky {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.imcons {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.app-logo {
+    width: 44px;
+    height: 44px;
+}
+
+.ai {
+    color: #121212;
+    margin-right: 10px;
+}
+
+.last {
+    height: 262px;
+    width: 100%;
+    background-color: #4c4c4c;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer .col-2 {
+    border-right: 1px solid #949494;
+    margin-bottom: 15px;
+}
+
+#sol a {
+    margin-right: 10px;
+}
+
+.col-2 a {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#sol {
+    margin-top: 20px;
+    margin-left: 20%;
+    font-size: 13px;
+}
+
+#rol {
+    margin-top: 10px;
+    margin-left: 20%;
+    font-size: 13px;
+}
+
+#shor {
+    margin-top: 10px;
+    margin-left: 19.5%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ic {
+    width: 110px;
+    height: 70px;
+    background-color: white;
+    border: none;
+}
+
+
+/*-----hover------*/
+
+.twiters:hover {
+    background-color: rgb(0, 177, 159);
+    color: white;
+}
+
+.ins:hover {
+    background-color: rgb(160, 105, 160);
+    color: white;
+}
+
+.face:hover {
+    background-color: rgb(52, 87, 243);
+}
+
+.you:hover {
+    background-color: rgb(238, 78, 78);
+    color: white;
+}
+
+
+/*---*/

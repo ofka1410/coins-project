@@ -1,0 +1,145 @@
+body {
+    background: url(https://www.contiki.com/six-two/wp-content/uploads/2015/09/sarthak-navjivan-iTZOPe7BpTM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(149, 206, 184);
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.726);
+    zoom: 1.5;
+}
+
+h2 {
+    color: rgb(64, 78, 51);
+}
+
+h3 {
+    background-color: yellow;
+}
+
+.tickets-form {
+    margin-top: 100px;
+    font-size: xx-large;
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.header {
+    font-size: x-large;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    margin: auto;
+}
+
+.your-name {
+    margin-top: 15px;
+    align-items: center;
+    display: flexbox;
+}
+
+.radios {
+    margin-top: 20px;
+    padding-left: 90px;
+}
+
+.submit {
+    margin-top: 25px;
+    padding-right: 40px;
+    display: block;
+}
+
+.but {
+    width: 140px;
+    height: 30px;
+    color: blue;
+    background-color: rgb(241, 196, 72);
+    border-radius: 10px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.but:hover {
+    width: 150px;
+    height: 50px;
+    transition: width 1s, height 1s;
+    background-color: aquamarine;
+}
+
+.but:active {
+    transform: scaleY(4);
+    transform: scaleZ(4);
+}
+
+.gif {
+    margin-top: 15px;
+    width: 500;
+    height: 300;
+}
+
+.when {
+    font-size: 30px;
+}
+
+footer img {
+    widh: 60px;
+    height: 60px;
+}
+
+.radios label {
+    color: rgb(184, 182, 182);
+}
+
+
+/*align-inpiuts*/
+
+.input-1 {
+    margin-left: 35px;
+}
+
+.input-2 {
+    margin-left: 38px;
+}
+
+.input-3 {
+    margin-right: 25px;
+}
+
+.input-4 {
+    margin-right: 20px;
+}
+
+.phone {
+    max;
+    rgin-right: p
+}
+
+.birth {
+    margin-right: 40px;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.ico {
+    padding: 10px 50px;
+}
+
+ul {
+    box-sizing: border-box;
+    background-color: rgb(121, 102, 102);
+    margin-top: none;
+    margin-bottom: 80px;
+}

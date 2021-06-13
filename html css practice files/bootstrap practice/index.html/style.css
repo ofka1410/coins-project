@@ -1,0 +1,29 @@
+.body {
+    font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    display: inline;
+    background-color: #000;
+    color: white;
+}
+
+.r.headeres-g {
+    align-items: center;
+}
+
+#sv {
+    width: 131px;
+    height: 40px;
+    background-color: white !important;
+    z-index: 1;
+}
+
+nav li {
+    display: inline;
+    text-decoration: nonessss;
+    padding: 17px;
+    color: white;
+}
